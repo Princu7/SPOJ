@@ -17,28 +17,16 @@ int main(void)
             a=make_pair(i,j);
             b=make_pair(i-1,j);
             if(b.first>=1)
-            {
-                if(edges.find(make_pair(a,b))==edges.end())
                     edges.insert(make_pair(make_pair(a,b),1));
-            }
             b=make_pair(i+1,j);
             if(b.first<=h)
-            {
-                if(edges.find(make_pair(a,b))==edges.end())
                     edges.insert(make_pair(make_pair(a,b),1));
-            }
             b=make_pair(i,j-1);
             if(b.second>=1)
-            {
-                if(edges.find(make_pair(a,b))==edges.end())
-                    edges.insert(make_pair(make_pair(a,b),1));
-            }
+                edges.insert(make_pair(make_pair(a,b),1));
             b=make_pair(i,j+1);
             if(b.second<=w)
-            {
-                if(edges.find(make_pair(a,b))==edges.end())
                     edges.insert(make_pair(make_pair(a,b),1));
-            }
         }
     }
     it=edges.begin();
