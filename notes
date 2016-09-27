@@ -1,0 +1,1 @@
+to make the to_string function work in the linux environment add this line while at the time of compilation -std=c++0x

@@ -1,20 +1,10 @@
-6 this is source
- This is the vertex being popped off 6
-1 is the neighbour of the above vertex which was popped
-1 is being pushed
- This is the vertex being popped off 1
-2 is the neighbour of the above vertex which was popped
-2 is being pushed
- This is the vertex being popped off 2
-3 is the neighbour of the above vertex which was popped
-3 is being pushed
- This is the vertex being popped off 3
-4 is the neighbour of the above vertex which was popped
-4 is being pushed
- This is the vertex being popped off 4
-5 is the neighbour of the above vertex which was popped
-5 is being pushed
- This is the vertex being popped off 5
-6 is the neighbour of the above vertex which was popped
-Scenario #2002:
-No suspicious bugs found!
+5
+3
+3
+4
+3
+1
+2
+1
+3
+2

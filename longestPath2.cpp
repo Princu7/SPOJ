@@ -24,7 +24,7 @@ int dfs(vector <int> V[],int root)
     for(int i=0;i<V[root].size();i++)
     {
         if(!check[V[root][i]])
-            dfs(V,V[root][i]);
+            m=dfs(V,V[root][i]);
         if(m>=m1)
         {
             m2=m1;
@@ -36,10 +36,6 @@ int dfs(vector <int> V[],int root)
     total=max(total,m1+m2+2);
     return (m1+1);
 }
-    
-
-            
-
 int main(void)
 {
     int n,a,b;
