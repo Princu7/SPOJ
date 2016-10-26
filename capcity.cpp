@@ -5,8 +5,7 @@ bool visited[100003]={0};
 vector <int> V[100004];
 vector <int> R[100004];
 int comp[100003];
-int n,m;
-int counter=0;
+int n,m,counter=0;
 void dfsFirst(int source)
 {
     visited[source]=1;
